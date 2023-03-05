@@ -1,4 +1,4 @@
-# KENDIMINBOTV14
+# Discord V14 Bot Altyapisi
 Projeme Hoşgeldiniz Kurulumu Çok Basit Aşağıda Kurulumunu Göstereceğim İstediğiniz Gibi Kullanabilirsiniz.
 # KURULUM (VSC Üzerinden)
 -Dosyayı İndirin.Açın sağ click ve code ile aç config.js ye gidip doldurun.
