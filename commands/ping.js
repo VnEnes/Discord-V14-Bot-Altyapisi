@@ -1,12 +1,13 @@
-const { EmbedBuilder, PermissionsBitField } = require("discord.js");
-const { SlashCommandBuilder } = require("@discordjs/builders");
+const {EmbedBuilder} = require("discord.js");
+const config = require("../config.js")
+exports.run = async (client, message, args) => {
+   message.reply(`**${client.ws.ping}** ms`)
 
-module.exports = {
-  data: new SlashCommandBuilder()
-    .setName("ping")
-    .setDescription("Pong!"),
-    run: async (client, interaction) => {
-      interaction.reply(`Pong 🏓`)
-      // komuta seçenekler eklemek istersen guide: https://discordjs.guide/interactions/slash-commands.html#options
-    }
- };
+};
+exports.conf = {
+  aliases: []
+};
+
+exports.help = {
+  name: "ping"
+};
