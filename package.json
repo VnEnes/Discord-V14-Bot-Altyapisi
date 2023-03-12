@@ -1,7 +1,7 @@
 {
-  "name": "vnbot",
+  "name": "altyapı",
   "version": "1.0.0",
-  "description": "vnbot alyap�",
+  "description": "alyap�",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
