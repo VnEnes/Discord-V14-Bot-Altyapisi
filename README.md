@@ -7,5 +7,5 @@ Projeme Hoşgeldiniz Kurulumu Çok Basit Aşağıda Kurulumunu Göstereceğim İ
 -.env ye git add a variable tıkla token yaz karşısına tokeni yapıştır.
 config.js ye git gerekli yerleri doldur (token hariç)
 Yardım İstemek İçin [TIKLA](https://discord.gg/mTZDEAyqUS)
-Yardım İstemek İçin [TIKLA](https://discord.gg/altyapilar)
+Kodların Bazıları Benim Değildir !
 # TAK ÇALIŞTIR !
