@@ -2,6 +2,9 @@
 Projeme Hoşgeldiniz Kurulumu Çok Basit Aşağıda Kurulumunu Göstereceğim İstediğiniz Gibi Kullanabilirsiniz.
 # KURULUM (VSC Üzerinden)
 -Dosyayı İndirin.Açın sağ click ve code ile aç config.js ye gidip doldurun.
+terminal i açıp
+npm i yazın
+node . yazın
 # KURULUM (Glitch Üzerinden)
 -Projenin GitHub Linkini [Kopyala](https://github.com/VnEnes/KENDIMINBOTV14/) import from github dan kopyaladığınız linki yapıştır.
 -.env ye git add a variable tıkla token yaz karşısına tokeni yapıştır.
