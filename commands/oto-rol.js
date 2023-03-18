@@ -8,8 +8,8 @@ module.exports.run = async(client, message, args, tools) => {
   if (!message.member.permissions.has(Discord.PermissionsBitField.Flags.Administrator)) return message.reply(`   **Bu komutu kullanabilmek için "\`Yönetici\`" yetkisine sahip olmalısın.**`);
   let rol = message.mentions.roles.first()
   let kanal = message.mentions.channels.first()
-  if(!kanal) return message.reply({content: "Bir Rol Etiketlemeli veya Rolün Adını yazmalısın. Örnek `e!otorol #kanal @rol`", allowedMentions: { repliedUser: false }})
-  if(!rol) return message.reply({content: "Bir Rol Etiketlemeli veya Rolün Adını yazmalısın. Örnek `e!otorol #kanal @rol`", allowedMentions: { repliedUser: false }})
+  if(!kanal) return message.reply({content: "Bir Rol Etiketlemeli veya Rolün Adını yazmalısın. Örnek `.otorol #kanal @rol`", allowedMentions: { repliedUser: false }})
+  if(!rol) return message.reply({content: "Bir Rol Etiketlemeli veya Rolün Adını yazmalısın. Örnek `.otorol #kanal @rol`", allowedMentions: { repliedUser: false }})
   const embed = new Discord.EmbedBuilder()
   .setAuthor({name: message.author.tag, iconURL: message.author.displayAvatarURL({dynamic: true})})
    .setColor("Red")
