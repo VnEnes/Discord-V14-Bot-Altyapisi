@@ -186,36 +186,6 @@ process.on("unhandledRejection", async (error) => {
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-//AAAAA
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
 
 
 //aaaaaaaaa
-
-//Bu Kod Faruk#6126 Tarafından Kodlanmıştır
-
-client.on('messageCreate', async message => {
-
-    if (message.channel.id !== '1085207982796718160') return; //Kanal ID Girmeyi Unutmayın
-
-    if ((message.content.startsWith('https://') && message.content.endsWith('png' || 'jpeg' || 'jpg')) || message.attachments.map(a => a.url)[0]) {
-
-        const kanal = await message.channel.threads.create({
-            name: 'Fotoğraf',
-            autoArchiveDuration: 60
-        })
-
-        if(message.attachments.map(a => a.url)[0]) {
-            kanal.send({ content: message.attachments.map(a => a.url)[0]})
-        } else {
-            kanal.send({ content: message.content })
-        }
-
-    }
-
-})
-
-//Bu Kod Faruk#6126 Tarafından Kodlanmıştır
